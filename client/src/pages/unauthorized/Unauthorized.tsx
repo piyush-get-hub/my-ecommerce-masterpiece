@@ -1,0 +1,1 @@
+export default function Unauthorized() { return <div className="p-10 text-destructive">Aapko yahan aane ki permission nahi hai! 🚫</div> }

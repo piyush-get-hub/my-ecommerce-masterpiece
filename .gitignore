@@ -1,0 +1,49 @@
+# Dependencies
+
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables (important secrets)
+
+.env
+.env.*
+client/.env
+server/.env
+
+# Logs
+
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build folders
+
+dist/
+build/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+
+.vscode/
+.idea/
+
+# Temporary files
+
+*.tmp
+*.temp
+*.cache
+
+# Testing
+
+coverage/
+
+# Optional local configs
+
+*.local
